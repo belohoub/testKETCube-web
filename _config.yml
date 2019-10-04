@@ -4,13 +4,17 @@ description: [The Prototyping and Educational Platform for IoT]
 logo: logo.png
 show_downloads: true
 github:
+  is_project_page: false
+  fw_name: KETCube-fw:
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.tar.gz
   fw_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-fw
+  docs_name: KETCube-docs:
   docs_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.zip
   docs_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.tar.gz
-  fw_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs
+  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs
+  mainBoard_name: KETCube-mainBoard:
   mainBoard_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.zip
   mainBoard_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.tar.gz
-  fw_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard
+  mainBoard_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard
   
