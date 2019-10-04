@@ -2,6 +2,7 @@ theme: jekyll-theme-minimal
 title: [KETCube]
 description: [The Prototyping and Educational Platform for IoT]
 logo: logo.png
+show_downloads: true
 github:
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.tar.gz
