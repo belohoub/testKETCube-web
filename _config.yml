@@ -5,9 +5,11 @@ logo: logo.png
 logo_oshw: oshw-logo.png
 show_downloads: true
 github:
-  maintainer: smartCampus ZČU
+  maintainer: SmartCampus ZČU Team
+  maintainer2: ZČU
   maintainer_url: https://github.com/SmartCAMPUSZCU
   logo_mt: sc-logo.png
+  logo_mt2: zcu-logo.png
   is_project_page: false
   fw_name: KETCube-fw
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
