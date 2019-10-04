@@ -2,12 +2,12 @@ theme: jekyll-theme-minimal
 title: KETCube - The Prototyping and Educational IoT Platfor
 description: KETCube project consists of several projects The current platform release is 0.1.1
 logo: logo.png
-logo_oshw: oshw-logo-200-px.png
+logo_oshw: oshw-logo.png
 show_downloads: true
 github:
   maintainer: smartCampus ZČU
   maintainer_url: https://github.com/SmartCAMPUSZCU
-  logo_mt: logo-sc.svg
+  logo_mt: sc-logo.png
   is_project_page: false
   fw_name: KETCube-fw
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip

@@ -20,7 +20,7 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <h2>{{ site.title | default: site.github.repository_name }}</h2>
+        <h3>{{ site.title | default: site.github.repository_name }}</h3>
         
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
@@ -60,6 +60,14 @@
           <img src="{{site.logo_oshw | relative_url}}" alt="OSHW Logo" />
         {% endif %}
         
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+      <footer>
+      
         {% if site.github.maintainer %}
         <p>This project is developed by <a href="{{ site.github.maintainer_url }}">{{ site.github.maintainer }}</a></p>
         
@@ -68,14 +76,7 @@
         {% endif %}
         
         {% endif %}
-        
-      </header>
-      <section>
-
-      {{ content }}
-
-      </section>
-      <footer>
+      
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
