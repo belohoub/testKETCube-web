@@ -3,7 +3,7 @@ title: [KETCube]
 description: [The Prototyping and Educational Platform for IoT]
 logo: logo.png
 github:
-  repository_url https://github.com/SmartCAMPUSZCU/KETCube-docs
+  repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
   fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.tar.gz
   docs_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.zip
