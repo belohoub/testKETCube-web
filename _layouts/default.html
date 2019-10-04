@@ -14,12 +14,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
         
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
+        <h2>{{ site.title | default: site.github.repository_name }}</h2>
+        
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
@@ -53,6 +55,20 @@
           <li><a href="{{ site.github.mainBoard_repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+        
+        {% if site.logo_oshw %}
+          <img src="{{site.logo_oshw | relative_url}}" alt="OSHW Logo" />
+        {% endif %}
+        
+        {% if site.github.maintainer %}
+        <p>This project is developed by <a href="{{ site.github.maintainer_url }}">{{ site.github.maintainer }}</a></p>
+        
+        {% if site.github.logo_mt %}
+          <img src="{{site.github.logo_mt | relative_url}}" alt="{{ site.github.maintainer }} Logo" />
+        {% endif %}
+        
+        {% endif %}
+        
       </header>
       <section>
 
